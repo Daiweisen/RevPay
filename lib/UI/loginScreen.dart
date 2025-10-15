@@ -467,7 +467,7 @@ void _handleLogin() async {
                                     mainAxisAlignment: MainAxisAlignment.center,
                                     children: [
                                       Text(
-                                        'New to Umoja Pay? ',
+                                        'New to Revbank? ',
                                         style: TextStyle(
                                           fontSize: 14.sp,
                                           color: lightGray,

@@ -17,7 +17,7 @@ class _RegistrationScreenState extends State<RegistrationScreen>
     with TickerProviderStateMixin {
   
   // Updated color palette to match the screenshot
-  static const Color primaryBlue = Color(0xFF4285F4);
+  static const Color primaryBlue = Color(0xFF7C3AED);
   static const Color darkText = Color(0xFF333333);
   static const Color lightGray = Color(0xFF999999);
   static const Color inputBorder = Color(0xFFE0E0E0);
@@ -190,7 +190,7 @@ void _handleSignUp() async {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xFF3D72FC),
+      backgroundColor: Color(0xFF7C3AED),
       body: Container(
         
       
@@ -209,8 +209,8 @@ void _handleSignUp() async {
                           begin: Alignment.topLeft,
                           end: Alignment.bottomRight,
                           colors: [
-                            Color(0xFF3D72FC),
-                            Color(0xFF3D72FC),
+                            Color(0xFF7C3AED),
+                            Color(0xFF7C3AED),
                           ],
                         ),
                       ),
@@ -424,7 +424,7 @@ void _handleSignUp() async {
                                 child: ElevatedButton(
                                   onPressed: isLoading ? null : _handleSignUp,
                                   style: ElevatedButton.styleFrom(
-                                    backgroundColor: Color(0xFF3D72FC),
+                                    backgroundColor: Color(0xFF7C3AED),
                                     foregroundColor: Colors.white,
                                     elevation: 0,
                                     shape: RoundedRectangleBorder(
@@ -481,7 +481,7 @@ void _handleSignUp() async {
                                             height: 1.4,
                                           ),
                                           children: [
-                                            TextSpan(text: 'By creating an account, I agree to Umoja\'s '),
+                                            TextSpan(text: 'By creating an account, I agree to Revbank\'s '),
                                             TextSpan(
                                               text: 'Terms of service',
                                               style: TextStyle(
